@@ -7,6 +7,9 @@ namespace AnimeQuizApp
 {
     public partial class frmGameplayScreen : Form
     {
+        //This int will be the score
+        private int currentScore = 0;
+
         private Dictionary<Image, String> AnimeCharacters;
         //This will keep track of which character they are currently on in the eictionary
         private int CurrentCharacterIndex = 0;
@@ -31,6 +34,8 @@ namespace AnimeQuizApp
             //Pull the character Image and add it to the dictionary along wit the name
             AnimeCharacters.Add(Properties.Resources.Monkey_D_Luffy, "LUFFY");
             AnimeCharacters.Add(Properties.Resources.Goku, "GOKU");
+            AnimeCharacters.Add(Properties.Resources.Jotaro_1, "JOTARO");
+            AnimeCharacters.Add(Properties.Resources.naruto, "NARUTO");
         }
 
         private void StartNewRound()
@@ -53,24 +58,36 @@ namespace AnimeQuizApp
                 //Clear the users input so they can type new answer
                 UserInput.Clear();
             }
-           //Placeholder image to swap back to becayse i couldnt get the image to disappear
+            //Placeholder image to swap back to becayse i couldnt get the image to disappear
             XBox.Image = (Properties.Resources.white_box);
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
-            //Make the local variablke fior the current character again
-            var character = AnimeCharacters.ElementAt(CurrentCharacterIndex);
-            //Create a string to hold the users answer & Change it to uppercase so there are no casing issues with the answer & get rid of extra spaces
+            //Get the answer and convert it to all caps and get rid of extra spaces so correct answers will be correct
             string Answer = UserInput.Text.ToUpper().Trim();
-            //Make a string for the correct name & I typed it in uppercase so I dont need to upper it here
-            string correctAnswer = character.Value;
+            ValidateAnswer(Answer);
+        }
+        //This function will update the score label each time the score is changed
+        private void UpdateScore()
+        {
+            //The $ acts like an f-string in python so I can put the variable directly into the text libe
+            scoreLabel.Text = $"Current Score is {currentScore}";
+        }
 
-            //Compare the user inoput to the cprrect answer
-            if (Answer == correctAnswer)
+        private void ValidateAnswer(string answer)
+        {
+            var currentCharacter = AnimeCharacters.ElementAt(CurrentCharacterIndex);
+            string CorrectAnswer = currentCharacter.Value;
+
+            if (answer == CorrectAnswer)
             {
-                //Change the label to say correct
-                CorrectLabel.Text = "Correct!!";
+                //increase score if it was correct
+                currentScore += 10;
+                //call the update score function to change the label text
+                UpdateScore();
+                //Change the label to let them knw it was correct
+                CorrectLabel.Text = "Correct!";
                 //Get the current key to remove it from the dictionary so correct answers do not show back up
                 Image CurrentKey = AnimeCharacters.Keys.ElementAt(CurrentCharacterIndex);
                 //Use the local variable made to store the image to remove it from the dictonary
@@ -99,16 +116,15 @@ namespace AnimeQuizApp
                 //Make the label say wrong
                 CorrectLabel.Text = "Wrong Answer! Try Again!";
             }
-
-
-            }
-        
-
-
+        }
         
 
         private void SkipButton_Click(object sender, EventArgs e)
         {
+            //Take away points if they skip a question
+            currentScore -= 5;
+            //Call the function to update the score label
+            UpdateScore();
             //When the button is clicked go to the next character in the dictionary 
             CurrentCharacterIndex++;
             //If no more characters left go back to the first one
@@ -120,6 +136,20 @@ namespace AnimeQuizApp
             StartNewRound();
         }
 
-
+        private void hintButton_Click(object sender, EventArgs e)
+        {
+            //Minues their score by 2 for usnig a hint
+            currentScore -= 2;
+            //Call the function to update the score label text
+            UpdateScore();
+            //create a variable to hold the character we are currently on
+            var character = AnimeCharacters.ElementAt(CurrentCharacterIndex);
+            //Get the name into a string variable so we can index it and pull it's first letter
+            string name = character.Value;
+            //display a messagebox to the user with the hint of the characters first letter of their name
+            MessageBox.Show($"This character's name starts with the letter '{name[0]}' .");
+            //Exit so another character is not pullled
+            return;
+        }
     }
 }

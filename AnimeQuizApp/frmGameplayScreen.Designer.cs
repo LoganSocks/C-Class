@@ -35,6 +35,8 @@
             SkipButton = new Button();
             XBox = new PictureBox();
             CorrectLabel = new Label();
+            hintButton = new Button();
+            scoreLabel = new Label();
             ((System.ComponentModel.ISupportInitialize)CharacterImage).BeginInit();
             ((System.ComponentModel.ISupportInitialize)XBox).BeginInit();
             SuspendLayout();
@@ -47,7 +49,6 @@
             CharacterImage.Size = new Size(246, 225);
             CharacterImage.TabIndex = 0;
             CharacterImage.TabStop = false;
-            
             // 
             // SubmitButton
             // 
@@ -74,7 +75,6 @@
             ProgressBar.Name = "ProgressBar";
             ProgressBar.Size = new Size(246, 23);
             ProgressBar.TabIndex = 3;
-            
             // 
             // SkipButton
             // 
@@ -103,11 +103,31 @@
             CorrectLabel.Size = new Size(0, 15);
             CorrectLabel.TabIndex = 7;
             // 
+            // hintButton
+            // 
+            hintButton.Location = new Point(419, 430);
+            hintButton.Name = "hintButton";
+            hintButton.Size = new Size(76, 23);
+            hintButton.TabIndex = 8;
+            hintButton.Text = "Need Help?";
+            hintButton.UseVisualStyleBackColor = true;
+            hintButton.Click += hintButton_Click;
+            // 
+            // scoreLabel
+            // 
+            scoreLabel.AutoSize = true;
+            scoreLabel.Location = new Point(340, 147);
+            scoreLabel.Name = "scoreLabel";
+            scoreLabel.Size = new Size(0, 15);
+            scoreLabel.TabIndex = 9;
+            // 
             // frmGameplayScreen
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(551, 713);
+            Controls.Add(scoreLabel);
+            Controls.Add(hintButton);
             Controls.Add(CorrectLabel);
             Controls.Add(XBox);
             Controls.Add(SkipButton);
@@ -132,5 +152,7 @@
         private Button SkipButton;
         private PictureBox XBox;
         private Label CorrectLabel;
+        private Button hintButton;
+        private Label scoreLabel;
     }
 }

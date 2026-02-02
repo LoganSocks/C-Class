@@ -93,9 +93,29 @@ namespace AnimeQuizApp.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Jotaro_1 {
+            get {
+                object obj = ResourceManager.GetObject("Jotaro_1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Monkey_D_Luffy {
             get {
                 object obj = ResourceManager.GetObject("Monkey_D_Luffy", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap naruto {
+            get {
+                object obj = ResourceManager.GetObject("naruto", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
