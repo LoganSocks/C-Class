@@ -1,0 +1,39 @@
+C:\Users\logan\source\repos\AnimeQuizApp\AnimeQuizApp\bin\Debug\net10.0-windows\AnimeQuizApp.exe
+C:\Users\logan\source\repos\AnimeQuizApp\AnimeQuizApp\bin\Debug\net10.0-windows\AnimeQuizApp.dll.config
+C:\Users\logan\source\repos\AnimeQuizApp\AnimeQuizApp\bin\Debug\net10.0-windows\AnimeQuizApp.deps.json
+C:\Users\logan\source\repos\AnimeQuizApp\AnimeQuizApp\bin\Debug\net10.0-windows\AnimeQuizApp.runtimeconfig.json
+C:\Users\logan\source\repos\AnimeQuizApp\AnimeQuizApp\bin\Debug\net10.0-windows\AnimeQuizApp.dll
+C:\Users\logan\source\repos\AnimeQuizApp\AnimeQuizApp\bin\Debug\net10.0-windows\AnimeQuizApp.pdb
+C:\Users\logan\source\repos\AnimeQuizApp\AnimeQuizApp\obj\Debug\net10.0-windows\AnimeQuizApp.frmGameplayScreen.resources
+C:\Users\logan\source\repos\AnimeQuizApp\AnimeQuizApp\obj\Debug\net10.0-windows\AnimeQuizApp.Properties.Resources.resources
+C:\Users\logan\source\repos\AnimeQuizApp\AnimeQuizApp\obj\Debug\net10.0-windows\AnimeQuizApp.csproj.GenerateResource.cache
+C:\Users\logan\source\repos\AnimeQuizApp\AnimeQuizApp\obj\Debug\net10.0-windows\AnimeQuizApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\logan\source\repos\AnimeQuizApp\AnimeQuizApp\obj\Debug\net10.0-windows\AnimeQuizApp.AssemblyInfoInputs.cache
+C:\Users\logan\source\repos\AnimeQuizApp\AnimeQuizApp\obj\Debug\net10.0-windows\AnimeQuizApp.AssemblyInfo.cs
+C:\Users\logan\source\repos\AnimeQuizApp\AnimeQuizApp\obj\Debug\net10.0-windows\AnimeQuizApp.csproj.CoreCompileInputs.cache
+C:\Users\logan\source\repos\AnimeQuizApp\AnimeQuizApp\obj\Debug\net10.0-windows\AnimeQuizApp.dll
+C:\Users\logan\source\repos\AnimeQuizApp\AnimeQuizApp\obj\Debug\net10.0-windows\refint\AnimeQuizApp.dll
+C:\Users\logan\source\repos\AnimeQuizApp\AnimeQuizApp\obj\Debug\net10.0-windows\AnimeQuizApp.pdb
+C:\Users\logan\source\repos\AnimeQuizApp\AnimeQuizApp\obj\Debug\net10.0-windows\AnimeQuizApp.genruntimeconfig.cache
+C:\Users\logan\source\repos\AnimeQuizApp\AnimeQuizApp\obj\Debug\net10.0-windows\ref\AnimeQuizApp.dll
+C:\Users\logan\source\repos\AnimeQuizApp\AnimeQuizApp\obj\Debug\net10.0-windows\AnimeQuizApp.Welcome_Screen.resources
+C:\Users\logan\C-Class\AnimeQuizApp - Copy\bin\Debug\net10.0-windows\AnimeQuizApp.exe
+C:\Users\logan\C-Class\AnimeQuizApp - Copy\bin\Debug\net10.0-windows\AnimeQuizApp.dll.config
+C:\Users\logan\C-Class\AnimeQuizApp - Copy\bin\Debug\net10.0-windows\AnimeQuizApp.deps.json
+C:\Users\logan\C-Class\AnimeQuizApp - Copy\bin\Debug\net10.0-windows\AnimeQuizApp.runtimeconfig.json
+C:\Users\logan\C-Class\AnimeQuizApp - Copy\bin\Debug\net10.0-windows\AnimeQuizApp.dll
+C:\Users\logan\C-Class\AnimeQuizApp - Copy\bin\Debug\net10.0-windows\AnimeQuizApp.pdb
+C:\Users\logan\C-Class\AnimeQuizApp - Copy\obj\Debug\net10.0-windows\AnimeQuizApp.frmGameplayScreen.resources
+C:\Users\logan\C-Class\AnimeQuizApp - Copy\obj\Debug\net10.0-windows\AnimeQuizApp.Properties.Resources.resources
+C:\Users\logan\C-Class\AnimeQuizApp - Copy\obj\Debug\net10.0-windows\AnimeQuizApp.Welcome_Screen.resources
+C:\Users\logan\C-Class\AnimeQuizApp - Copy\obj\Debug\net10.0-windows\AnimeQuizApp.csproj.GenerateResource.cache
+C:\Users\logan\C-Class\AnimeQuizApp - Copy\obj\Debug\net10.0-windows\AnimeQuizApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\logan\C-Class\AnimeQuizApp - Copy\obj\Debug\net10.0-windows\AnimeQuizApp.AssemblyInfoInputs.cache
+C:\Users\logan\C-Class\AnimeQuizApp - Copy\obj\Debug\net10.0-windows\AnimeQuizApp.AssemblyInfo.cs
+C:\Users\logan\C-Class\AnimeQuizApp - Copy\obj\Debug\net10.0-windows\AnimeQuizApp.csproj.CoreCompileInputs.cache
+C:\Users\logan\C-Class\AnimeQuizApp - Copy\obj\Debug\net10.0-windows\AnimeQuizApp.sourcelink.json
+C:\Users\logan\C-Class\AnimeQuizApp - Copy\obj\Debug\net10.0-windows\AnimeQuizApp.dll
+C:\Users\logan\C-Class\AnimeQuizApp - Copy\obj\Debug\net10.0-windows\refint\AnimeQuizApp.dll
+C:\Users\logan\C-Class\AnimeQuizApp - Copy\obj\Debug\net10.0-windows\AnimeQuizApp.pdb
+C:\Users\logan\C-Class\AnimeQuizApp - Copy\obj\Debug\net10.0-windows\AnimeQuizApp.genruntimeconfig.cache
+C:\Users\logan\C-Class\AnimeQuizApp - Copy\obj\Debug\net10.0-windows\ref\AnimeQuizApp.dll
