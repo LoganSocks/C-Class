@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("AnimeQuizApp")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9a1f54a31722025f3c2949f25302d21b72ff0a22")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8b070b704b83985cf5aeb80b3f13a4f832ee1c0c")]
 [assembly: System.Reflection.AssemblyProductAttribute("AnimeQuizApp")]
 [assembly: System.Reflection.AssemblyTitleAttribute("AnimeQuizApp")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

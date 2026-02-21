@@ -3,8 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\logan\\C-Class\\AnimeQuizApp - Copy\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{D4B8124F-02F8-2544-7B74-258F97031737}|AnimeQuizApp.csproj|c:\\users\\logan\\c-class\\animequizapp - copy\\welcome_screen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D4B8124F-02F8-2544-7B74-258F97031737}|AnimeQuizApp.csproj|solutionrelative:welcome_screen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{D4B8124F-02F8-2544-7B74-258F97031737}|AnimeQuizApp.csproj|c:\\users\\logan\\c-class\\animequizapp - copy\\frmgameplayscreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D4B8124F-02F8-2544-7B74-258F97031737}|AnimeQuizApp.csproj|solutionrelative:frmgameplayscreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4B8124F-02F8-2544-7B74-258F97031737}|AnimeQuizApp.csproj|C:\\Users\\logan\\C-Class\\AnimeQuizApp - Copy\\welcome_screen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{D4B8124F-02F8-2544-7B74-258F97031737}|AnimeQuizApp.csproj|solutionrelative:welcome_screen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D4B8124F-02F8-2544-7B74-258F97031737}|AnimeQuizApp.csproj|c:\\users\\logan\\c-class\\animequizapp - copy\\frmgameplayscreen.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -13,14 +21,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{D4B8124F-02F8-2544-7B74-258F97031737}|AnimeQuizApp.csproj|C:\\Users\\logan\\C-Class\\AnimeQuizApp - Copy\\frmgameplayscreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{D4B8124F-02F8-2544-7B74-258F97031737}|AnimeQuizApp.csproj|solutionrelative:frmgameplayscreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D4B8124F-02F8-2544-7B74-258F97031737}|AnimeQuizApp.csproj|C:\\Users\\logan\\C-Class\\AnimeQuizApp - Copy\\welcome_screen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{D4B8124F-02F8-2544-7B74-258F97031737}|AnimeQuizApp.csproj|solutionrelative:welcome_screen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D4B8124F-02F8-2544-7B74-258F97031737}|AnimeQuizApp.csproj|c:\\users\\logan\\c-class\\animequizapp - copy\\welcome_screen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D4B8124F-02F8-2544-7B74-258F97031737}|AnimeQuizApp.csproj|solutionrelative:welcome_screen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D4B8124F-02F8-2544-7B74-258F97031737}|AnimeQuizApp.csproj|c:\\users\\logan\\c-class\\animequizapp - copy\\welcome_screen.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -34,11 +34,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "Welcome_Screen.cs [Design]",
               "DocumentMoniker": "C:\\Users\\logan\\C-Class\\AnimeQuizApp - Copy\\Welcome_Screen.cs",
               "RelativeDocumentMoniker": "Welcome_Screen.cs",
@@ -50,7 +50,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "frmGameplayScreen.Designer.cs",
               "DocumentMoniker": "C:\\Users\\logan\\C-Class\\AnimeQuizApp - Copy\\frmGameplayScreen.Designer.cs",
               "RelativeDocumentMoniker": "frmGameplayScreen.Designer.cs",
@@ -63,7 +63,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "frmGameplayScreen.cs [Design]",
               "DocumentMoniker": "C:\\Users\\logan\\C-Class\\AnimeQuizApp - Copy\\frmGameplayScreen.cs",
               "RelativeDocumentMoniker": "frmGameplayScreen.cs",
@@ -75,26 +75,26 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "frmGameplayScreen.cs",
               "DocumentMoniker": "C:\\Users\\logan\\C-Class\\AnimeQuizApp - Copy\\frmGameplayScreen.cs",
               "RelativeDocumentMoniker": "frmGameplayScreen.cs",
               "ToolTip": "C:\\Users\\logan\\C-Class\\AnimeQuizApp - Copy\\frmGameplayScreen.cs",
               "RelativeToolTip": "frmGameplayScreen.cs",
-              "ViewState": "AgIAABMBAAAAAAAAAADwvzIBAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAMoAAAAAAAAAAAAYwAcAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-02-08T19:56:07.352Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 0,
               "Title": "Welcome_Screen.cs",
               "DocumentMoniker": "C:\\Users\\logan\\C-Class\\AnimeQuizApp - Copy\\Welcome_Screen.cs",
               "RelativeDocumentMoniker": "Welcome_Screen.cs",
               "ToolTip": "C:\\Users\\logan\\C-Class\\AnimeQuizApp - Copy\\Welcome_Screen.cs",
               "RelativeToolTip": "Welcome_Screen.cs",
-              "ViewState": "AgIAACQAAAAAAAAAAAAiwDUAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABMAAAAAAAAAAAAgwCQAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-02-08T19:55:33.698Z",
               "EditorCaption": ""
